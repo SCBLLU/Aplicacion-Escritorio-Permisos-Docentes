@@ -1,0 +1,24 @@
+{
+  "name": "app-permisos-docentes",
+  "version": "1.0.0",
+  "description": "Aplicacion de escritorio para la plataforma de permisos docentes en escritorio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-builder"
+  },
+  "author": "Rafael Canales",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.permisos.docentes.desktop",
+    "win": {
+      "target": "nsis",
+      "icon": "javascript.ico"
+    }
+  }
+}
