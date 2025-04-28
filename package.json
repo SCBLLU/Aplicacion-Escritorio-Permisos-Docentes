@@ -1,7 +1,7 @@
 {
-  "name": "app-permisos-docentes",
+  "name": "saucessv",
   "version": "1.0.0",
-  "description": "Aplicacion de escritorio para la plataforma de permisos docentes en escritorio",
+  "description": "Sistema de Inventario",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -15,10 +15,10 @@
     "electron-builder": "^23.6.0"
   },
   "build": {
-    "appId": "com.permisos.docentes.desktop",
+    "appId": "com.saucessv.desktop",
     "win": {
       "target": "nsis",
-      "icon": "javascript.ico"
+      "icon": "Icon/globe.ico"
     }
   }
 }
